@@ -89,7 +89,7 @@ namespace WindowsFormsApp4
             this.pnl_bevarages.Controls.Add(this.checkBox29);
             this.pnl_bevarages.Controls.Add(this.checkBox30);
             this.pnl_bevarages.Controls.Add(this.checkBox31);
-            this.pnl_bevarages.Location = new System.Drawing.Point(92, 89);
+            this.pnl_bevarages.Location = new System.Drawing.Point(3, 3);
             this.pnl_bevarages.Name = "pnl_bevarages";
             this.pnl_bevarages.Size = new System.Drawing.Size(621, 408);
             this.pnl_bevarages.TabIndex = 18;
@@ -311,7 +311,7 @@ namespace WindowsFormsApp4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnl_bevarages);
             this.Name = "UserControl3";
-            this.Size = new System.Drawing.Size(805, 586);
+            this.Size = new System.Drawing.Size(626, 414);
             this.pnl_bevarages.ResumeLayout(false);
             this.pnl_bevarages.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown33)).EndInit();

@@ -74,7 +74,7 @@ namespace WindowsFormsApp4
             this.pnl_chinese.Controls.Add(this.checkBox3);
             this.pnl_chinese.Controls.Add(this.checkBox2);
             this.pnl_chinese.Controls.Add(this.checkBox1);
-            this.pnl_chinese.Location = new System.Drawing.Point(24, 35);
+            this.pnl_chinese.Location = new System.Drawing.Point(2, 2);
             this.pnl_chinese.Name = "pnl_chinese";
             this.pnl_chinese.Size = new System.Drawing.Size(621, 408);
             this.pnl_chinese.TabIndex = 5;
@@ -233,7 +233,7 @@ namespace WindowsFormsApp4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnl_chinese);
             this.Name = "UserControl2";
-            this.Size = new System.Drawing.Size(668, 479);
+            this.Size = new System.Drawing.Size(624, 411);
             this.pnl_chinese.ResumeLayout(false);
             this.pnl_chinese.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();

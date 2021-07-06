@@ -46,6 +46,7 @@ namespace menu
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -237,11 +238,19 @@ namespace menu
             this.panel2.Size = new System.Drawing.Size(387, 71);
             this.panel2.TabIndex = 19;
             // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(15, 130);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(640, 444);
+            this.panel3.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1018, 838);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
@@ -283,6 +292,7 @@ namespace menu
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

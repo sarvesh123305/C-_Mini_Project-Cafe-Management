@@ -79,7 +79,7 @@ namespace WindowsFormsApp4
             this.pnl_southindian.Controls.Add(this.checkBox21);
             this.pnl_southindian.Controls.Add(this.checkBox22);
             this.pnl_southindian.Controls.Add(this.checkBox23);
-            this.pnl_southindian.Location = new System.Drawing.Point(97, 54);
+            this.pnl_southindian.Location = new System.Drawing.Point(3, 3);
             this.pnl_southindian.Name = "pnl_southindian";
             this.pnl_southindian.Size = new System.Drawing.Size(621, 427);
             this.pnl_southindian.TabIndex = 17;
@@ -259,7 +259,7 @@ namespace WindowsFormsApp4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnl_southindian);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(815, 534);
+            this.Size = new System.Drawing.Size(623, 429);
             this.pnl_southindian.ResumeLayout(false);
             this.pnl_southindian.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();

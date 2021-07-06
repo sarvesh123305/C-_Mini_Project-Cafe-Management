@@ -16,45 +16,7 @@ namespace menu
             InitializeComponent();
         }
 
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void RestTextboxes()
         {
@@ -82,10 +44,17 @@ namespace menu
             func(Controls);
         }
 
+        private void ResetDataGridView()
+        {
+            dataGridView1.Rows.Clear(); 
+        }
+
         private void btn_reset_Click(object sender, EventArgs e)
         {
             RestTextboxes();
             RestCheckboxes();
+            ResetDataGridView();
+            textBox1.Clear();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -98,7 +67,11 @@ namespace menu
             
             if (cmb_category.SelectedItem.ToString() == "Chinese")
             {
-                pnl_chinese.Visible = true;
+               if(!panel3.Controls.Contains(UserControl2.Instance))
+                {
+                    panel3.Controls.Add(UserControl2.Instance);
+                    UserControl2.Instance.BringToFront();
+                }
             }
             if (cmb_category.SelectedItem.ToString() == "Italian")
             {
@@ -120,15 +93,7 @@ namespace menu
             this.Close();
         }
 
-        private void numericUpDown30_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         string name;
         int price;

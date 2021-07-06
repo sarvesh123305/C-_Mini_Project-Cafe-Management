@@ -79,7 +79,7 @@ namespace WindowsFormsApp4
             this.pnl_italian.Controls.Add(this.checkBox12);
             this.pnl_italian.Controls.Add(this.checkBox13);
             this.pnl_italian.Controls.Add(this.checkBox14);
-            this.pnl_italian.Location = new System.Drawing.Point(73, 92);
+            this.pnl_italian.Location = new System.Drawing.Point(3, 3);
             this.pnl_italian.Name = "pnl_italian";
             this.pnl_italian.Size = new System.Drawing.Size(621, 408);
             this.pnl_italian.TabIndex = 15;
@@ -259,7 +259,7 @@ namespace WindowsFormsApp4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnl_italian);
             this.Name = "UserControl4";
-            this.Size = new System.Drawing.Size(766, 593);
+            this.Size = new System.Drawing.Size(625, 412);
             this.pnl_italian.ResumeLayout(false);
             this.pnl_italian.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
