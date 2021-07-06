@@ -4,23 +4,11 @@ H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\bin\Debug\C
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\bin\Debug\Cafe Management Mini Project.exe
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\bin\Debug\Cafe Management Mini Project.pdb
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.csprojAssemblyReference.cache
-H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe_Management_Mini_Project.Form1.resources
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe_Management_Mini_Project.Properties.Resources.resources
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.csproj.GenerateResource.cache
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.csproj.CoreCompileInputs.cache
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.exe
 H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.pdb
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\bin\Debug\CustomerAdmin_Data.mdf
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\bin\Debug\CustomerAdmin_Data_log.ldf
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.exe.config
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.exe
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.pdb
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.AssemblyReference.cache
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Forgot_password.resources
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Login.resources
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.NewCustomer.resources
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Properties.Resources.resources
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.GenerateResource.cache
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.exe
-C:\Users\Admin\Source\Repos\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.pdb
+H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe_Management_Mini_Project.Forgot_password.resources
+H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe_Management_Mini_Project.Login.resources
+H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\obj\Debug\Cafe_Management_Mini_Project.NewCustomer.resources
