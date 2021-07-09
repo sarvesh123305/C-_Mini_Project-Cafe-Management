@@ -20,7 +20,7 @@ namespace Cafe_Management_Mini_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\source\repos\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
+            SqlConnection Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\CustomerAdmin_Data.mdf;Integrated Security=True");
             try
             {
                 ConnectionState state = Conn.State;
