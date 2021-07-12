@@ -1,0 +1,10 @@
+Sarvesh :
+Login Form added
+New Customer data added 
+Forgot Password added
+OTP Process added
+
+Ashwin :
+Menu card added
+Menu card updated with guna
+
