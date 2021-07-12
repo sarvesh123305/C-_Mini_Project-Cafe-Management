@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace Cafe_Management_Mini_Project
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         SqlConnection Conn;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
              Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\CustomerAdmin_Data.mdf;Integrated Security=True");
@@ -34,7 +34,7 @@ namespace Cafe_Management_Mini_Project
                 {
                     Conn.Open();
                 }
-                string query = "select Username,Password from Customer where Username = '" + username + "' and Password ='" + password + "';";
+                string query = "select Mobile,Password from Customer where Username = '" + username + "' and Password ='" + password + "';";
                 SqlCommand cmd = new SqlCommand(query, Conn);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -77,13 +77,25 @@ namespace Cafe_Management_Mini_Project
         {
             if (MessageBox.Show("Are you sure you want to exit?", "Confirm exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
-                Form1 form1 = new Form1();
+                Login form1 = new Login();
                 form1.Show();
             }
             else { Application.Exit(); }
             //MessageBox.Show("Are You sure you want to exit?","Exit", MessageBoxButtons.YesNo);
             //if(MessageBoxButtons)
             //Application.Exit();
+        }
+
+        private void llNewCustomer_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            NewCustomer frm = new NewCustomer();
+            frm.Show();
+        }
+
+        private void llForgot_password_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Forgot_password frm = new Forgot_password();
+            frm.Show();
         }
     }
 }
