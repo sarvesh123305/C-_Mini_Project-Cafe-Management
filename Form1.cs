@@ -97,5 +97,32 @@ namespace Cafe_Management_Mini_Project
             Forgot_password frm = new Forgot_password();
             frm.Show();
         }
+
+        private void llAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+         
+            Admin_Login frm = new Admin_Login();
+            this.Hide();
+            frm.Show();
+            
+        }
+
+        private void Show_Click(object sender, EventArgs e)
+        {
+            if(txtPassword.PasswordChar=='*')
+            {
+                Hide.BringToFront();
+                txtPassword.PasswordChar = '\0';
+            }
+        }
+
+        private void Hide_Click(object sender, EventArgs e)
+        {
+            if (txtPassword.PasswordChar == '\0')
+            {
+                Hide.BringToFront();
+                txtPassword.PasswordChar = '*';
+            }
+        }
     }
 }

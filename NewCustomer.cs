@@ -32,15 +32,19 @@ namespace Cafe_Management_Mini_Project
                     Conn.Open();
                 }
                 if(textBox1.Text=="" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" ||
-                    textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "" || textBox8.Text == "" )
+                    textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "" )
                 {
                     MessageBox.Show("Please enter all the fields", "Incomplete Data");
                 }
+                else if(textBox6.Text!=textBox7.Text)
+                {
+                    MessageBox.Show("Passwords dont match", "Invalid password");
+                }
                 else
                 { 
-                string Query = "insert into Customer (Password,Name,Mobile,Address,Email,AadharNo,Nickname,Bestfriend)" +
+                string Query = "insert into Customer (Password,Name,Mobile,Address,Email,AadharNo)" +
                     " values ('"+textBox6.Text+"','"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"','"+textBox4.Text+"','"
-                    +textBox5.Text+"','"+textBox7.Text+"','"+textBox8.Text+"');";
+                    +textBox5.Text+"');";
                     SqlCommand cmd = new SqlCommand(Query, Conn);
                     cmd.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully.Your Username is your Mobile Number", "Success");
@@ -51,6 +55,51 @@ namespace Cafe_Management_Mini_Project
             {
                 MessageBox.Show(Ex.Message, "Error");
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NewCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

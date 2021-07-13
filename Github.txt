@@ -3,6 +3,7 @@ Login Form added
 New Customer data added 
 Forgot Password added
 OTP Process added
+Admin Form and password hide added
 
 Ashwin :
 Menu card added

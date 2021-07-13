@@ -39,6 +39,8 @@ namespace Cafe_Management_Mini_Project
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.buttonExit = new System.Windows.Forms.Button();
             this.llForgot_password = new System.Windows.Forms.LinkLabel();
+            this.Show = new System.Windows.Forms.Button();
+            this.Hide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,6 +109,7 @@ namespace Cafe_Management_Mini_Project
             this.llAdmin.TabIndex = 5;
             this.llAdmin.TabStop = true;
             this.llAdmin.Text = "Admin?Click here";
+            this.llAdmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llAdmin_LinkClicked);
             // 
             // txtUsername
             // 
@@ -130,7 +133,7 @@ namespace Cafe_Management_Mini_Project
             this.buttonExit.BackColor = System.Drawing.Color.Red;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonExit.Location = new System.Drawing.Point(733, 80);
+            this.buttonExit.Location = new System.Drawing.Point(688, 60);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 23);
             this.buttonExit.TabIndex = 8;
@@ -149,6 +152,30 @@ namespace Cafe_Management_Mini_Project
             this.llForgot_password.Text = "Forgot password?";
             this.llForgot_password.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llForgot_password_LinkClicked);
             // 
+            // Show
+            // 
+            this.Show.BackColor = System.Drawing.Color.Transparent;
+            this.Show.ForeColor = System.Drawing.Color.White;
+            this.Show.Image = global::Cafe_Management_Mini_Project.Properties.Resources.Show;
+            this.Show.Location = new System.Drawing.Point(589, 148);
+            this.Show.Name = "Show";
+            this.Show.Size = new System.Drawing.Size(219, 102);
+            this.Show.TabIndex = 10;
+            this.Show.UseVisualStyleBackColor = false;
+            this.Show.Click += new System.EventHandler(this.Show_Click);
+            // 
+            // Hide
+            // 
+            this.Hide.BackColor = System.Drawing.Color.Transparent;
+            this.Hide.ForeColor = System.Drawing.Color.White;
+            this.Hide.Image = global::Cafe_Management_Mini_Project.Properties.Resources.Hide;
+            this.Hide.Location = new System.Drawing.Point(589, 252);
+            this.Hide.Name = "Hide";
+            this.Hide.Size = new System.Drawing.Size(219, 102);
+            this.Hide.TabIndex = 11;
+            this.Hide.UseVisualStyleBackColor = false;
+            this.Hide.Click += new System.EventHandler(this.Hide_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -157,6 +184,8 @@ namespace Cafe_Management_Mini_Project
             this.BackgroundImage = global::Cafe_Management_Mini_Project.Properties.Resources.login;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(820, 450);
+            this.Controls.Add(this.Hide);
+            this.Controls.Add(this.Show);
             this.Controls.Add(this.llForgot_password);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.txtPassword);
@@ -171,7 +200,7 @@ namespace Cafe_Management_Mini_Project
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,6 +218,8 @@ namespace Cafe_Management_Mini_Project
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.LinkLabel llForgot_password;
+        private new System.Windows.Forms.Button Show;
+        private new System.Windows.Forms.Button Hide;
     }
 }
 

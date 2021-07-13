@@ -40,3 +40,20 @@ H:\Sarvesh\Visual studio programs\Cafe Management Mini Project\obj\Debug\Cafe Ma
 H:\Sarvesh\Visual studio programs\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.csproj.CoreCompileInputs.cache
 H:\Sarvesh\Visual studio programs\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.exe
 H:\Sarvesh\Visual studio programs\Cafe Management Mini Project\obj\Debug\Cafe Management Mini Project.pdb
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\bin\Debug\CustomerAdmin_Data.mdf
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\bin\Debug\CustomerAdmin_Data_log.ldf
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.exe.config
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.exe
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.pdb
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\bin\Debug\Guna.UI2.dll
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csprojAssemblyReference.cache
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Admin_Login.resources
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Forgot_password.resources
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Login.resources
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.NewCustomer.resources
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Properties.Resources.resources
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.GenerateResource.cache
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.CoreCompileInputs.cache
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.CopyComplete
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.exe
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.pdb
