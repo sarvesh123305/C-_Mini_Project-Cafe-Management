@@ -57,3 +57,4 @@ C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe 
 C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.CopyComplete
 C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.exe
 C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.pdb
+C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Admin_View.resources

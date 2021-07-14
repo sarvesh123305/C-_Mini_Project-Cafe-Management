@@ -75,6 +75,12 @@
     <Compile Include="Admin_Login.Designer.cs">
       <DependentUpon>Admin_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_View.Designer.cs">
+      <DependentUpon>Admin_View.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forgot_password.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Admin_Login.resx">
       <DependentUpon>Admin_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_View.resx">
+      <DependentUpon>Admin_View.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forgot_password.resx">
       <DependentUpon>Forgot_password.cs</DependentUpon>

@@ -17,7 +17,7 @@ namespace Cafe_Management_Mini_Project
         public Login()
         {
             InitializeComponent();
-             Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=H:\Sarvesh\Visual studio programs\repos\Cafe Management Mini Project\CustomerAdmin_Data.mdf;Integrated Security=True");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
         }
 
         private void buttonSubmit_Click(object sender, EventArgs e)
@@ -34,7 +34,8 @@ namespace Cafe_Management_Mini_Project
                 {
                     Conn.Open();
                 }
-                string query = "select Mobile,Password from Customer where Username = '" + username + "' and Password ='" + password + "';";
+                string query = "select Mobile,Password from Customer where (" +
+                    " Mobile = '" + username + "' or email='"+username+"') and (Password ='" + password + "');";
                 SqlCommand cmd = new SqlCommand(query, Conn);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -63,6 +64,7 @@ namespace Cafe_Management_Mini_Project
                         MessageBox.Show("Please check your Username or Password", "Invalid Details");
                     }
                 }
+                Conn.Close();
             }
             catch (Exception Ex)
             {

@@ -66,7 +66,7 @@ namespace Cafe_Management_Mini_Project
             this.label2.Size = new System.Drawing.Size(149, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Enter your name :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+//            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -77,7 +77,7 @@ namespace Cafe_Management_Mini_Project
             this.label3.Size = new System.Drawing.Size(159, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Enter your Mobile :";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+           // this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -88,7 +88,7 @@ namespace Cafe_Management_Mini_Project
             this.label4.Size = new System.Drawing.Size(168, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Enter your address :";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+          //  this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -233,7 +233,7 @@ namespace Cafe_Management_Mini_Project
             this.Name = "NewCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NewCustomer";
-            this.Load += new System.EventHandler(this.NewCustomer_Load);
+           // this.Load += new System.EventHandler(this.NewCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

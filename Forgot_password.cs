@@ -15,10 +15,11 @@ namespace Cafe_Management_Mini_Project
 {
     public partial class Forgot_password : Form
     {
-        SqlConnection Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=H:\Sarvesh\Visual studio programs\Cafe Management Mini Project\CustomerAdmin_Data.mdf;Integrated Security=True");
+        SqlConnection Conn;
         public Forgot_password()
         {
             InitializeComponent();
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
         }
         static int num;
         private void button1_Click(object sender, EventArgs e)
@@ -53,12 +54,13 @@ namespace Cafe_Management_Mini_Project
                 {
                     MessageBox.Show("Sorry Your data is incorrect","Wrong Data");
                 }
+                Conn.Close();
             }
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message, "Error");
             }
-            Conn.Close();
+            
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -67,9 +69,8 @@ namespace Cafe_Management_Mini_Project
             try
             {
                 Random rnd = new Random();
-                num = rnd.Next(100000, 999999);
-                //MessageBox.Show(num.ToString());
-
+                num = rnd.Next(100000, 999999);//Generates random number between specified range
+        
                 try
                 {
 
@@ -123,7 +124,7 @@ namespace Cafe_Management_Mini_Project
 
                 if (num.ToString() == textBox2.Text)
                 {
-                    //MessageBox.Show("Your Password is : ", "Success");
+                    
                     string Query = "select Password from Customer where Email='" + textBox1.Text + "'";
 
                     SqlCommand cmd = new SqlCommand(Query, Conn);
