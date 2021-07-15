@@ -1,0 +1,25 @@
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Database1.mdf
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Database1_log.ldf
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\CustomerAdmin_Data.mdf
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\CustomerAdmin_Data_log.ldf
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Cafe Management Mini Project.exe.config
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Cafe Management Mini Project.exe
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Cafe Management Mini Project.pdb
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\CafeMenu.exe
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Guna.UI2.dll
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\CafeMenu.pdb
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\CafeMenu.exe.config
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Release\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe Management Mini Project.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe_Management_Mini_Project.Admin_Login.resources
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe_Management_Mini_Project.Admin_View.resources
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe_Management_Mini_Project.Forgot_password.resources
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe_Management_Mini_Project.Login.resources
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe_Management_Mini_Project.NewCustomer.resources
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe_Management_Mini_Project.Properties.Resources.resources
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe Management Mini Project.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe Management Mini Project.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe Management Mini Project.csproj.CopyComplete
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe Management Mini Project.exe
+C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\obj\Release\Cafe Management Mini Project.pdb

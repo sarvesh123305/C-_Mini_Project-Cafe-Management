@@ -40,7 +40,6 @@ namespace Cafe_Management_Mini_Project
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
-                MessageBox.Show("Established");
                 if (dt.Rows.Count > 0)
                 {
                     CafeMenu.Menu aa = new CafeMenu.Menu();
@@ -112,20 +111,20 @@ namespace Cafe_Management_Mini_Project
 
         private void Show_Click(object sender, EventArgs e)
         {
-            if(txtPassword.PasswordChar=='*')
-            {
-                Hide.BringToFront();
-                txtPassword.PasswordChar = '\0';
-            }
+            //if(txtPassword.PasswordChar=='*')
+            //{
+            //    Hide.BringToFront();
+            //    txtPassword.PasswordChar = '\0';
+            //}
         }
 
         private void Hide_Click(object sender, EventArgs e)
         {
-            if (txtPassword.PasswordChar == '\0')
-            {
-                Hide.BringToFront();
-                txtPassword.PasswordChar = '*';
-            }
+            //if (txtPassword.PasswordChar == '\0')
+            //{
+            //    Hide.BringToFront();
+            //    txtPassword.PasswordChar = '*';
+            //}
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -139,6 +138,11 @@ namespace Cafe_Management_Mini_Project
         }
 
         private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
         }
