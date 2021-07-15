@@ -47,5 +47,10 @@ namespace Cafe_Management_Mini_Project
             this.Hide();
             frm.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -152,6 +152,11 @@
     </Content>
     <Content Include="Passsword images\Hide.png" />
     <Content Include="Passsword images\Show.png" />
+    <None Include="Resources\FORGOT BACK.jpg" />
+    <None Include="Resources\admin-login-sign-table-made-wood-68499314.jpg" />
+    <None Include="Resources\41593.jpg" />
+    <None Include="Resources\cafe background1.jpg" />
+    <None Include="Resources\cafe background.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

@@ -155,5 +155,10 @@ namespace Cafe_Management_Mini_Project
                 MessageBox.Show(Ex.Message, "Error");
             }
         }
+
+        private void Forgot_password_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
