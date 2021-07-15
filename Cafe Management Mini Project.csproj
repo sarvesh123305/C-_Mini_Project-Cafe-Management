@@ -170,5 +170,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\source\repos\CafeMenu\CafeMenu.csproj">
+      <Project>{0fa01ef3-6750-4f74-8cf4-7ffce67c3e50}</Project>
+      <Name>CafeMenu</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

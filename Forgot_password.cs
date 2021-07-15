@@ -19,7 +19,7 @@ namespace Cafe_Management_Mini_Project
         public Forgot_password()
         {
             InitializeComponent();
-            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
         }
         static int num;
         private void button1_Click(object sender, EventArgs e)
@@ -141,7 +141,7 @@ namespace Cafe_Management_Mini_Project
                     }
                     else if (td.Rows.Count == 0)
                     {
-                        MessageBox.Show("Invalid Username", "Wrong Data");
+                        MessageBox.Show("No data found", "No Data");
                     }
                 }
                 else

@@ -17,7 +17,7 @@ namespace Cafe_Management_Mini_Project
         public Login()
         {
             InitializeComponent();
-            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
         }
 
         private void buttonSubmit_Click(object sender, EventArgs e)
@@ -43,7 +43,8 @@ namespace Cafe_Management_Mini_Project
                 MessageBox.Show("Established");
                 if (dt.Rows.Count > 0)
                 {
-                    MessageBox.Show("Well Job");
+                    CafeMenu.Menu aa = new CafeMenu.Menu();
+                    aa.Show();
                 }
                 else
                 {

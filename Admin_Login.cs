@@ -52,5 +52,10 @@ namespace Cafe_Management_Mini_Project
         {
 
         }
+
+        private void Admin_Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
