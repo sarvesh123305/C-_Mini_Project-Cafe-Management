@@ -82,6 +82,24 @@
     <Compile Include="Admin_View.Designer.cs">
       <DependentUpon>Admin_View.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_Chinese.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Chinese.Designer.cs">
+      <DependentUpon>UC_Chinese.cs</DependentUpon>
+    </Compile>
+    <Compile Include="all UC\UC_Italian.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="all UC\UC_Italian.Designer.cs">
+      <DependentUpon>UC_Italian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="all UC\UC_Southindian.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="all UC\UC_Southindian.Designer.cs">
+      <DependentUpon>UC_Southindian.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forgot_password.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +111,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_cafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_cafe.Designer.cs">
+      <DependentUpon>Menu_cafe.cs</DependentUpon>
     </Compile>
     <Compile Include="NewCustomer.cs">
       <SubType>Form</SubType>
@@ -108,11 +132,23 @@
     <EmbeddedResource Include="Admin_View.resx">
       <DependentUpon>Admin_View.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC_Chinese.resx">
+      <DependentUpon>UC_Chinese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all UC\UC_Italian.resx">
+      <DependentUpon>UC_Italian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all UC\UC_Southindian.resx">
+      <DependentUpon>UC_Southindian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forgot_password.resx">
       <DependentUpon>Forgot_password.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_cafe.resx">
+      <DependentUpon>Menu_cafe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewCustomer.resx">
       <DependentUpon>NewCustomer.cs</DependentUpon>
@@ -127,6 +163,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="App1.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,13 +181,6 @@
     <None Include="Resources\login.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CustomerAdmin_Data.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CustomerAdmin_Data_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>CustomerAdmin_Data.mdf</DependentUpon>
-    </Content>
     <Content Include="Passsword images\Hide.png" />
     <Content Include="Passsword images\Show.png" />
     <None Include="Resources\FORGOT BACK.jpg" />

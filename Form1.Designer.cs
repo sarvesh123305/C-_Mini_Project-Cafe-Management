@@ -101,7 +101,7 @@ namespace Cafe_Management_Mini_Project
             this.buttonSubmit.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSubmit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonSubmit.Location = new System.Drawing.Point(408, 344);
-            this.buttonSubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSubmit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSubmit.Name = "buttonSubmit";
             this.buttonSubmit.Size = new System.Drawing.Size(117, 42);
             this.buttonSubmit.TabIndex = 4;
@@ -127,8 +127,8 @@ namespace Cafe_Management_Mini_Project
             // 
             this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtUsername.Font = new System.Drawing.Font("Yu Gothic UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(331, 192);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.Location = new System.Drawing.Point(331, 188);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(266, 27);
             this.txtUsername.TabIndex = 6;
@@ -140,7 +140,7 @@ namespace Cafe_Management_Mini_Project
             this.txtPassword.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtPassword.Font = new System.Drawing.Font("Yu Gothic UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.Location = new System.Drawing.Point(331, 247);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(266, 27);
@@ -154,7 +154,7 @@ namespace Cafe_Management_Mini_Project
             this.buttonExit.Font = new System.Drawing.Font("Myanmar Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonExit.Location = new System.Drawing.Point(829, 24);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(90, 40);
             this.buttonExit.TabIndex = 8;
@@ -196,7 +196,7 @@ namespace Cafe_Management_Mini_Project
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

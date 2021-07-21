@@ -83,3 +83,30 @@ C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Debug\Microsof
 C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Debug\CafeMenu.pdb
 C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Debug\CafeMenu.exe.config
 C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Database1.mdf
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Database1_log.ldf
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.exe.config
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.exe
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Cafe Management Mini Project.pdb
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\CafeMenu.exe
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\CafeMenu.pdb
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\CafeMenu.exe.config
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Admin_Login.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Admin_View.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Forgot_password.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Login.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.NewCustomer.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Properties.Resources.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.csproj.CopyComplete
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.exe
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.pdb
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.all_UC.UC_Chinese.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.all_UC.UC_Italian.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.all_UC.UC_Southindian.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Menu_cafe.resources

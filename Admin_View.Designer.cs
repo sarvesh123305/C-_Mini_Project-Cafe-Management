@@ -55,7 +55,7 @@ namespace Cafe_Management_Mini_Project
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.Datagrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.Datagrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Datagrid1.ColumnHeadersHeight = 26;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -68,13 +68,14 @@ namespace Cafe_Management_Mini_Project
             this.Datagrid1.EnableHeadersVisualStyles = false;
             this.Datagrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.Datagrid1.Location = new System.Drawing.Point(0, 0);
+            this.Datagrid1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Datagrid1.Name = "Datagrid1";
             this.Datagrid1.ReadOnly = true;
             this.Datagrid1.RowHeadersVisible = false;
             this.Datagrid1.RowHeadersWidth = 51;
             this.Datagrid1.RowTemplate.Height = 24;
             this.Datagrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Datagrid1.Size = new System.Drawing.Size(800, 450);
+            this.Datagrid1.Size = new System.Drawing.Size(1015, 584);
             this.Datagrid1.TabIndex = 0;
             this.Datagrid1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.Datagrid1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -88,8 +89,8 @@ namespace Cafe_Management_Mini_Project
             this.Datagrid1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.Datagrid1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.Datagrid1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.Datagrid1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Datagrid1.ThemeStyle.HeaderStyle.Height = 4;
+            this.Datagrid1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.Datagrid1.ThemeStyle.HeaderStyle.Height = 26;
             this.Datagrid1.ThemeStyle.ReadOnly = true;
             this.Datagrid1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.Datagrid1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -98,13 +99,16 @@ namespace Cafe_Management_Mini_Project
             this.Datagrid1.ThemeStyle.RowsStyle.Height = 24;
             this.Datagrid1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.Datagrid1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.Datagrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Datagrid1_CellContentClick);
             // 
             // Admin_View
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1015, 584);
             this.Controls.Add(this.Datagrid1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Admin_View";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_View";

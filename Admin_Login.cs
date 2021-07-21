@@ -21,8 +21,10 @@ namespace Cafe_Management_Mini_Project
         {
             if(txtUsername.Text=="Admin" && txtPassword.Text=="Admin")//Static username and password for Admin
             {
+                this.Close();
                 Admin_View frm = new Admin_View();
                 frm.Show();
+
             }
             else
             {
@@ -38,7 +40,7 @@ namespace Cafe_Management_Mini_Project
                 Admin_Login form1 = new Admin_Login();
                 form1.Show();
             }
-            else { Application.Exit(); }
+            else { this.Hide(); }
         }
 
         private void label2_Click(object sender, EventArgs e)

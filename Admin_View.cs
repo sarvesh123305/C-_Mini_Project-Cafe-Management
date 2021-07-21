@@ -17,7 +17,7 @@ namespace Cafe_Management_Mini_Project
         public Admin_View()
         {
             InitializeComponent();
-             Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
+             Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
 
         }
 
@@ -26,7 +26,7 @@ namespace Cafe_Management_Mini_Project
             try
             {
                 Conn.Open();
-                string Query = "select * from Customer";
+                string Query = "select * from customer_data";
 
                 SqlCommand cmd = new SqlCommand(Query, Conn);
                 cmd.ExecuteNonQuery();
@@ -40,9 +40,10 @@ namespace Cafe_Management_Mini_Project
                 }
                 else
                 {
-                    Datagrid1.Hide();
+                   
                     MessageBox.Show("Sorry! No data Found", "No data");
                 }
+
             }
             catch(Exception Ex)
             {
@@ -52,8 +53,14 @@ namespace Cafe_Management_Mini_Project
 
         private void Admin_View_FormClosing(object sender, FormClosingEventArgs e)
         {
+           
             Login frm = new Login();
             frm.Show();
+        }
+
+        private void Datagrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -17,13 +17,50 @@ namespace Cafe_Management_Mini_Project
         public Login()
         {
             InitializeComponent();
-            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
         }
 
+        public static string name;
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
+            {
+                try
+                {
+                    string query = "truncate table menudata";
+                    SqlCommand cmd = new SqlCommand(query, Conn);
+
+                    Conn.Open();
+                    cmd.ExecuteNonQuery();
+                    Conn.Close();                    
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
             string username = txtUsername.Text;
             string password = txtPassword.Text;
+
+            string qry = "select Name from Customer where Mobile='" + txtUsername.Text + "' or Email='" + txtUsername.Text + "'";
+            SqlCommand cmdd = new SqlCommand(qry, Conn);
+
+            Conn.Open();
+            DataTable dat = new DataTable();
+            SqlDataAdapter sad = new SqlDataAdapter();
+            sad.SelectCommand = cmdd;
+            sad.Fill(dat);
+            if (dat.Rows.Count > 0)
+            {
+                string result = cmdd.ExecuteScalar().ToString();
+                name = result;
+
+
+            }
+            cmdd.ExecuteNonQuery();
+            Conn.Close();
+        
+
+
             try
             {
                 ConnectionState state = Conn.State;
@@ -35,15 +72,15 @@ namespace Cafe_Management_Mini_Project
                     Conn.Open();
                 }
                 string query = "select Mobile,Password from Customer where (" +
-                    " Mobile = '" + username + "' or email='"+username+"') and (Password ='" + password + "');";
+                    " Mobile = '" + username + "' or email='" + username + "') and (Password ='" + password + "');";
                 SqlCommand cmd = new SqlCommand(query, Conn);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    CafeMenu.Menu aa = new CafeMenu.Menu();
-                    aa.Show();
+                    CafeMenu.Menu mn = new CafeMenu.Menu(name);
+                    mn.Show();
                 }
                 else
                 {
@@ -68,10 +105,10 @@ namespace Cafe_Management_Mini_Project
             }
             catch (Exception Ex)
             {
-               
-                MessageBox.Show(Ex.Message,"Error");
+
+                MessageBox.Show(Ex.Message, "Error");
             }
-            
+
 
         }
 
@@ -82,7 +119,7 @@ namespace Cafe_Management_Mini_Project
                 Login form1 = new Login();
                 form1.Show();
             }
-            else { Application.Exit(); }
+            else { this.Close(); }
             //MessageBox.Show("Are You sure you want to exit?","Exit", MessageBoxButtons.YesNo);
             //if(MessageBoxButtons)
             //Application.Exit();
