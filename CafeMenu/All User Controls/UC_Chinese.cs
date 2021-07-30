@@ -13,22 +13,17 @@ namespace CafeMenu.All_User_Controls
     public partial class UC_Chinese : UserControl
     {
         SqlConnection con;
-
-
         public UC_Chinese()
         {
             InitializeComponent();
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
+            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CafeMenu\Database1.mdf;Integrated Security=True");
         }
-        
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-           
             try
             {
                 if (checkBox1.Checked)
                 {
-                   
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                         "'"+checkBox1.Text+"', '50','" + numericUpDown1.Text + "',50*"+ numericUpDown1.Text + ")";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -45,7 +40,6 @@ namespace CafeMenu.All_User_Controls
                 }
                 if (checkBox3.Checked)
                 {
-
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                         "'"+checkBox3.Text+"', '80','" + numericUpDown2.Text + "',80*"+numericUpDown2.Text+")";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -62,7 +56,6 @@ namespace CafeMenu.All_User_Controls
                 }
                 if (checkBox2.Checked)
                 {
-
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                         "'" + checkBox2.Text + "', '90','" + numericUpDown3.Text + "',90*"+numericUpDown3.Text+")";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -79,7 +72,6 @@ namespace CafeMenu.All_User_Controls
                 }
                 if (checkBox5.Checked)
                 {
-
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                          "'" + checkBox5.Text + "', '110','" + numericUpDown4.Text + "',110*" + numericUpDown4.Text + ")";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -96,7 +88,6 @@ namespace CafeMenu.All_User_Controls
                 }
                 if (checkBox4.Checked)
                 {
-
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                          "'" + checkBox4.Text + "', '60','" + numericUpDown7.Text + "',60*" + numericUpDown7.Text + ")";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -113,7 +104,6 @@ namespace CafeMenu.All_User_Controls
                 }
                 if (checkBox6.Checked)
                 {
-
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                          "'" + checkBox6.Text + "', '70','" + numericUpDown6.Text + "',70*" + numericUpDown6.Text + ")";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -130,7 +120,6 @@ namespace CafeMenu.All_User_Controls
                 }
                 if (checkBox7.Checked)
                 {
-
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
                         "'" + checkBox7.Text + "', '90','" + numericUpDown5.Text + "',90*" + numericUpDown5.Text + ")";
 
@@ -152,11 +141,6 @@ namespace CafeMenu.All_User_Controls
             {
                 MessageBox.Show(ex.Message, "Error");
             }
-        }
-
-        private void UC_Chinese_Load(object sender, EventArgs e)
-        {
-        
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -217,10 +201,8 @@ namespace CafeMenu.All_User_Controls
                 numericUpDown7.Text = "0";
             }
         }
-
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-
             if (checkBox6.Checked)
             {
                 numericUpDown6.Text = "1";
@@ -230,10 +212,8 @@ namespace CafeMenu.All_User_Controls
                 numericUpDown6.Text = "0";
             }
         }
-
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
-
             if (checkBox7.Checked)
             {
                 numericUpDown5.Text = "1";

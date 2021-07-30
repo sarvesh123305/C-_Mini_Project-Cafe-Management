@@ -69,12 +69,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="All User Controls\placeorder_uc.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="All User Controls\placeorder_uc.Designer.cs">
-      <DependentUpon>placeorder_uc.cs</DependentUpon>
-    </Compile>
     <Compile Include="All User Controls\UC_Bevarages.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -140,9 +134,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="All User Controls\placeorder_uc.resx">
-      <DependentUpon>placeorder_uc.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="All User Controls\UC_Bevarages.resx">
       <DependentUpon>UC_Bevarages.cs</DependentUpon>
     </EmbeddedResource>

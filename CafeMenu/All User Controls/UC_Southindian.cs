@@ -17,7 +17,7 @@ namespace CafeMenu.All_User_Controls
         public UC_Southindian()
         {
             InitializeComponent();
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
+            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CafeMenu\Database1.mdf;Integrated Security=True");
 
         }
 
@@ -131,7 +131,7 @@ namespace CafeMenu.All_User_Controls
                 {
 
                     string query = "INSERT INTO menudata (item,price,qty,total) values (" +
-                        "'" + checkBox22.Text + "', '60','" + numericUpDown22.Text + "',60*" + numericUpDown22.Text + ")";
+                        "'" + checkBox22.Text + "', '30','" + numericUpDown22.Text + "',60*" + numericUpDown22.Text + ")";
 
                     SqlCommand cmd = new SqlCommand(query, con);
                     try

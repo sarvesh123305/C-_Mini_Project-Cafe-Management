@@ -19,7 +19,7 @@ namespace Cafe_Management_Mini_Project
         public Forgot_password()
         {
             InitializeComponent();
-            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CafeMenu\Database1.mdf;Integrated Security=True");
         }
         static int num;
         private void button1_Click(object sender, EventArgs e)
@@ -91,7 +91,7 @@ namespace Cafe_Management_Mini_Project
                     smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                     smtp.Credentials = new NetworkCredential(from, pass);
                     smtp.Send(msg);
-                    DialogResult code = MessageBox.Show("Email sent successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    DialogResult code = MessageBox.Show("OTP has been sent successfully to your Email", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     if (code == DialogResult.OK)
                     {
 
@@ -159,6 +159,11 @@ namespace Cafe_Management_Mini_Project
         private void Forgot_password_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Forgot_password_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //this.Close();
         }
     }
 }

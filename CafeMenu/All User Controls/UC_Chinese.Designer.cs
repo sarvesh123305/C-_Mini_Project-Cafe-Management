@@ -321,7 +321,6 @@ namespace CafeMenu.All_User_Controls
             this.Controls.Add(this.shapeContainer1);
             this.Name = "UC_Chinese";
             this.Size = new System.Drawing.Size(720, 670);
-            this.Load += new System.EventHandler(this.UC_Chinese_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();

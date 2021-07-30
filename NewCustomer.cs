@@ -19,7 +19,7 @@ namespace Cafe_Management_Mini_Project
         public NewCustomer()
         {
             InitializeComponent();
-            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CafeMenu\Database1.mdf;Integrated Security=True");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,7 +53,7 @@ namespace Cafe_Management_Mini_Project
                         to = textBox4.Text;
                         from = "gpevents20121@gmail.com";
                         pass = "dontchangepass";                     
-                        msgbody = "Congrats "+textBox1.Text+"!! You Have Successfully Registered yourself For ASA's Cafe\nEnjoy Our Service..\nFor any Queries Contact: gpevents20121@gmail.com (+91-9876543210)";
+                        msgbody = "Congrats "+textBox1.Text+"!! You Have Successfully Registered yourself For ASA's Cafe You can login with your Mobile No or Email-id and Password entered at the registration\nEnjoy Our Service..\nFor any Queries Contact: gpevents20121@gmail.com (+91-9876543210)";
                         msg.To.Add(to);
                         msg.From = new MailAddress(from);
                         msg.Body = msgbody;
