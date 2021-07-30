@@ -88,18 +88,6 @@
     <Compile Include="UC_Chinese.Designer.cs">
       <DependentUpon>UC_Chinese.cs</DependentUpon>
     </Compile>
-    <Compile Include="all UC\UC_Italian.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="all UC\UC_Italian.Designer.cs">
-      <DependentUpon>UC_Italian.cs</DependentUpon>
-    </Compile>
-    <Compile Include="all UC\UC_Southindian.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="all UC\UC_Southindian.Designer.cs">
-      <DependentUpon>UC_Southindian.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forgot_password.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,12 +123,6 @@
     <EmbeddedResource Include="UC_Chinese.resx">
       <DependentUpon>UC_Chinese.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="all UC\UC_Italian.resx">
-      <DependentUpon>UC_Italian.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="all UC\UC_Southindian.resx">
-      <DependentUpon>UC_Southindian.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forgot_password.resx">
       <DependentUpon>Forgot_password.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,7 +145,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="App1.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -202,7 +183,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\source\repos\CafeMenu\CafeMenu.csproj">
+    <ProjectReference Include="CafeMenu\CafeMenu.csproj">
       <Project>{0fa01ef3-6750-4f74-8cf4-7ffce67c3e50}</Project>
       <Name>CafeMenu</Name>
     </ProjectReference>

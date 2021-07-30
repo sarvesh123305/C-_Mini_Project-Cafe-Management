@@ -47,7 +47,7 @@ namespace Cafe_Management_Mini_Project
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(11, 90);
+            this.label1.Location = new System.Drawing.Point(11, 79);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(209, 55);
@@ -60,7 +60,7 @@ namespace Cafe_Management_Mini_Project
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
             this.lblUsername.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblUsername.Location = new System.Drawing.Point(143, 170);
+            this.lblUsername.Location = new System.Drawing.Point(206, 177);
             this.lblUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(171, 45);
@@ -74,7 +74,7 @@ namespace Cafe_Management_Mini_Project
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
             this.lblPassword.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblPassword.Location = new System.Drawing.Point(143, 230);
+            this.lblPassword.Location = new System.Drawing.Point(206, 237);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(160, 45);
@@ -86,7 +86,7 @@ namespace Cafe_Management_Mini_Project
             this.llNewCustomer.AutoSize = true;
             this.llNewCustomer.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.llNewCustomer.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llNewCustomer.Location = new System.Drawing.Point(99, 437);
+            this.llNewCustomer.Location = new System.Drawing.Point(38, 509);
             this.llNewCustomer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.llNewCustomer.Name = "llNewCustomer";
             this.llNewCustomer.Size = new System.Drawing.Size(276, 25);
@@ -98,12 +98,12 @@ namespace Cafe_Management_Mini_Project
             // buttonSubmit
             // 
             this.buttonSubmit.BackColor = System.Drawing.Color.Plum;
-            this.buttonSubmit.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSubmit.Font = new System.Drawing.Font("Myanmar Text", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSubmit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonSubmit.Location = new System.Drawing.Point(408, 344);
+            this.buttonSubmit.Location = new System.Drawing.Point(426, 365);
             this.buttonSubmit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(117, 42);
+            this.buttonSubmit.Size = new System.Drawing.Size(150, 49);
             this.buttonSubmit.TabIndex = 4;
             this.buttonSubmit.Text = "Submit";
             this.buttonSubmit.UseVisualStyleBackColor = false;
@@ -114,7 +114,7 @@ namespace Cafe_Management_Mini_Project
             this.llAdmin.AutoSize = true;
             this.llAdmin.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.llAdmin.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llAdmin.Location = new System.Drawing.Point(644, 437);
+            this.llAdmin.Location = new System.Drawing.Point(751, 509);
             this.llAdmin.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.llAdmin.Name = "llAdmin";
             this.llAdmin.Size = new System.Drawing.Size(195, 25);
@@ -126,11 +126,11 @@ namespace Cafe_Management_Mini_Project
             // txtUsername
             // 
             this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtUsername.Font = new System.Drawing.Font("Yu Gothic UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(331, 188);
+            this.txtUsername.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.Location = new System.Drawing.Point(394, 189);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(266, 27);
+            this.txtUsername.Size = new System.Drawing.Size(266, 33);
             this.txtUsername.TabIndex = 6;
             this.txtUsername.Text = "8668446202";
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
@@ -138,12 +138,12 @@ namespace Cafe_Management_Mini_Project
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.txtPassword.Font = new System.Drawing.Font("Yu Gothic UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(331, 247);
+            this.txtPassword.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(394, 249);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(266, 27);
+            this.txtPassword.Size = new System.Drawing.Size(266, 33);
             this.txtPassword.TabIndex = 7;
             this.txtPassword.Text = "Sarvesh";
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
@@ -153,7 +153,7 @@ namespace Cafe_Management_Mini_Project
             this.buttonExit.BackColor = System.Drawing.Color.Red;
             this.buttonExit.Font = new System.Drawing.Font("Myanmar Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonExit.Location = new System.Drawing.Point(829, 24);
+            this.buttonExit.Location = new System.Drawing.Point(881, 11);
             this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(90, 40);
@@ -166,11 +166,11 @@ namespace Cafe_Management_Mini_Project
             // 
             this.llForgot_password.AutoSize = true;
             this.llForgot_password.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.llForgot_password.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llForgot_password.Location = new System.Drawing.Point(513, 288);
+            this.llForgot_password.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llForgot_password.Location = new System.Drawing.Point(488, 295);
             this.llForgot_password.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.llForgot_password.Name = "llForgot_password";
-            this.llForgot_password.Size = new System.Drawing.Size(190, 25);
+            this.llForgot_password.Size = new System.Drawing.Size(172, 22);
             this.llForgot_password.TabIndex = 9;
             this.llForgot_password.TabStop = true;
             this.llForgot_password.Text = "Forgot password?";

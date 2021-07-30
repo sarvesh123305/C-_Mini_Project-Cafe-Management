@@ -107,6 +107,4 @@ C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug
 C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.exe
 C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe Management Mini Project.pdb
 C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.all_UC.UC_Chinese.resources
-C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.all_UC.UC_Italian.resources
-C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.all_UC.UC_Southindian.resources
 C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\obj\Debug\Cafe_Management_Mini_Project.Menu_cafe.resources

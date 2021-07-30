@@ -19,7 +19,7 @@ namespace Cafe_Management_Mini_Project
         public Forgot_password()
         {
             InitializeComponent();
-            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Desktop\githuy\C-_Mini_Project-Cafe-Management\CustomerAdmin_Data.mdf;Integrated Security=True");
+            Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=False");
         }
         static int num;
         private void button1_Click(object sender, EventArgs e)
@@ -78,7 +78,7 @@ namespace Cafe_Management_Mini_Project
                     MailMessage msg = new MailMessage();
                     to = textBox1.Text;
                     from = "gpevents20121@gmail.com";
-                    pass = "howyoudoin";
+                    pass = "dontchangepass";
                     msgbody = "Your OTP is : " + num;
                     msg.To.Add(to);
                     msg.From = new MailAddress(from);
@@ -137,7 +137,7 @@ namespace Cafe_Management_Mini_Project
                     {
 
                         string result = cmd.ExecuteScalar().ToString();
-                        MessageBox.Show("Your Password is : " + result, "Success");
+                        MessageBox.Show("Your Password is : " + result, "Success!!");
                     }
                     else if (td.Rows.Count == 0)
                     {
@@ -146,7 +146,7 @@ namespace Cafe_Management_Mini_Project
                 }
                 else
                 {
-                    MessageBox.Show("Please recheck your OTP", "Failure");
+                    MessageBox.Show("Please recheck your OTP", "Failure!");
                 }
                 Conn.Close();
             }

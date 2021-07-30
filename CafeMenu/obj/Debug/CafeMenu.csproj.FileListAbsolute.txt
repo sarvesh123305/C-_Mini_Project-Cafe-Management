@@ -1,0 +1,71 @@
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\CafeMenu.exe.config
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\CafeMenu.exe
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\CafeMenu.pdb
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.Menu.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.Properties.Resources.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.csproj.CopyComplete
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.exe
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.pdb
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Chinese.resources
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Italian.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Southindian.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Bevarages.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_PlaceOrder.resources
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\Database1.mdf
+C:\Users\Admin\source\repos\CafeMenu\bin\Debug\Database1_log.ldf
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.UC_welcome.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.Place_Order.resources
+C:\Users\Admin\source\repos\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.placeorder_uc.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\Database1.mdf
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\Database1_log.ldf
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\CafeMenu.exe.config
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\CafeMenu.exe
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\CafeMenu.pdb
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.placeorder_uc.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Bevarages.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Chinese.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Italian.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_PlaceOrder.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Southindian.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.UC_welcome.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.Menu.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.Place_Order.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.Properties.Resources.resources
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.csproj.CopyComplete
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.exe
+C:\Users\Admin\Desktop\Mini Project C#\CafeMenu\obj\Debug\CafeMenu.pdb
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\Database1.mdf
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\Database1_log.ldf
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\CafeMenu.exe.config
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\CafeMenu.exe
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\CafeMenu.pdb
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.placeorder_uc.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Bevarages.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Chinese.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Italian.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_PlaceOrder.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.All_User_Controls.UC_Southindian.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.UC_welcome.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.Menu.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.Place_Order.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.Properties.Resources.resources
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.csproj.CopyComplete
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.exe
+C:\Users\Admin\Desktop\Mini Project C#\C-_Mini_Project-Cafe-Management\CafeMenu\obj\Debug\CafeMenu.pdb
