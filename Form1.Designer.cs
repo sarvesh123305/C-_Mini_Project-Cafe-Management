@@ -36,13 +36,13 @@ namespace Cafe_Management_Mini_Project
             this.llAdmin = new System.Windows.Forms.LinkLabel();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.buttonExit = new System.Windows.Forms.Button();
             this.llForgot_password = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnSubmit = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // lblUsername
@@ -104,7 +104,6 @@ namespace Cafe_Management_Mini_Project
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(353, 39);
             this.txtUsername.TabIndex = 6;
-            this.txtUsername.Text = "8668446202";
             // 
             // txtPassword
             // 
@@ -116,21 +115,6 @@ namespace Cafe_Management_Mini_Project
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(353, 39);
             this.txtPassword.TabIndex = 7;
-            this.txtPassword.Text = "Sarvesh";
-            // 
-            // buttonExit
-            // 
-            this.buttonExit.BackColor = System.Drawing.Color.Red;
-            this.buttonExit.Font = new System.Drawing.Font("Myanmar Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonExit.Location = new System.Drawing.Point(1175, 14);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(120, 49);
-            this.buttonExit.TabIndex = 8;
-            this.buttonExit.Text = "Exit";
-            this.buttonExit.UseVisualStyleBackColor = false;
-            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // llForgot_password
             // 
@@ -171,7 +155,7 @@ namespace Cafe_Management_Mini_Project
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(611, 667);
+            this.linkLabel1.Location = new System.Drawing.Point(611, 666);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(167, 31);
             this.linkLabel1.TabIndex = 12;
@@ -216,6 +200,28 @@ namespace Cafe_Management_Mini_Project
             this.btnSubmit.TabIndex = 15;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            this.btnSubmit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnSubmit_KeyPress);
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.guna2Button2.BorderColor = System.Drawing.Color.MintCream;
+            this.guna2Button2.BorderRadius = 25;
+            this.guna2Button2.BorderThickness = 3;
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.FillColor = System.Drawing.Color.Black;
+            this.guna2Button2.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.Red;
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Location = new System.Drawing.Point(1155, 29);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(123, 63);
+            this.guna2Button2.TabIndex = 16;
+            this.guna2Button2.Text = "Exit";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // Login
             // 
@@ -225,13 +231,13 @@ namespace Cafe_Management_Mini_Project
             this.BackgroundImage = global::Cafe_Management_Mini_Project.Properties.Resources._41593;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1309, 734);
+            this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.llForgot_password);
-            this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.llAdmin);
@@ -245,6 +251,7 @@ namespace Cafe_Management_Mini_Project
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
+            this.Enter += new System.EventHandler(this.btnSubmit_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -257,13 +264,13 @@ namespace Cafe_Management_Mini_Project
         private System.Windows.Forms.LinkLabel llAdmin;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.LinkLabel llForgot_password;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button btnSubmit;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }
 

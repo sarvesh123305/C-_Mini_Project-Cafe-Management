@@ -14,25 +14,7 @@ namespace Cafe_Management_Mini_Project
             Conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Reliance\Desktop\Github\C-_Mini_Project-Cafe-Management\CafeMenu\Database1.mdf;Integrated Security=True");
         }
         public static string name;
-        private void buttonSubmit_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void buttonExit_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Are you sure you want to exit?", "Confirm exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            {
-                Login form1 = new Login();
-                form1.Show();
-            }
-            else 
-            { 
-                this.Close();
-            }
-            
-        }
-
+        
         private void llNewCustomer_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             NewCustomer frm = new NewCustomer();
@@ -87,10 +69,6 @@ namespace Cafe_Management_Mini_Project
             MessageBox.Show("For any Queries Contact Us\nEmail : gpevents20121@gmail.com\n\nOur team will contact you within 24-48 working hours please be patient.....Thanks for cooperation!", "Help");
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
@@ -178,6 +156,24 @@ namespace Cafe_Management_Mini_Project
                 }
                 MessageBox.Show(Ex.Message, "Error");
             }
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to exit?", "Confirm exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                Login form1 = new Login();
+                form1.Show();
+            }
+            else
+            {
+                this.Close();
+            }
+        }
+
+        private void btnSubmit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
         }
     }
 }
